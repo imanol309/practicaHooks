@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Incrementar from './incrementar'
+import Condicional from './condicional'
+import ErrorApp from './errorApp';
+import ProductosApp from './productosApp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <div className="App"></div>
+        <Incrementar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Condicional/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <ErrorApp/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <ProductosApp/>
+    </>
   );
 }
 
